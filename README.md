@@ -1,4 +1,4 @@
-# election-analysis-sql
+# election-analysis-sql (mySQL)
 Relational SQL project simulating elections in South India
 
 # 🗳️ Election Analysis SQL Project
