@@ -62,8 +62,8 @@ The 22 queries include:
 ---
 
 ## 🚀 How to Run
-1. Open your SQL environment (MySQL, PostgreSQL, or compatible DBMS).  
-2. Run **`Sql_project_election_setup.sql`** to create and populate the database.  
+1. Open your SQL environment (MySQL)  
+2. Run **`Sql_project_election_setup.sql`** one by one block of code from top to bottom to create and populate the database.  
 3. Run **`Sql_project_election_queries.sql`** to execute all analysis queries.
 
 ---
