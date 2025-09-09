@@ -1,9 +1,7 @@
 
--- drop database polity;
 CREATE DATABASE polity;
 USE polity;
 
--- Schema
 
 CREATE TABLE states (
     state_id INT PRIMARY KEY,
@@ -99,7 +97,8 @@ INSERT INTO parties VALUES (1, 'People''s Voice Party', 'Manoj Kumar');
 INSERT INTO parties VALUES (2, 'Harmony Progressive Front', 'Deepa Reddy');
 INSERT INTO parties VALUES (3, 'United Citizen Alliance', 'Aishwarya Menon');
 INSERT INTO parties VALUES (4, 'Southern Democratic Union', 'Dhusyanth Iyer');
-INSERT INTO parties VALUES (5, 'Future Tamil Congress', 'Meena Swamy');
+INSERT INTO parties VALUES (5, "Future Reform's Union", 'Meena Swamy');
+
 -- Inserts: candidates (96 total, 4 per constituency)
 INSERT INTO candidates VALUES (1, 'Nandini Menon', 31, 'Female', 1, 1);
 INSERT INTO candidates VALUES (2, 'Shreya Reddy', 45, 'Female', 1, 2);
@@ -698,6 +697,23 @@ INSERT INTO voters VALUES (497, 'Kavya Iyer', 25, 'Female', 24);
 INSERT INTO voters VALUES (498, 'Bhavya Kumar', 24, 'Female', 24);
 INSERT INTO voters VALUES (499, 'Vidya Shetty', 33, 'Female', 24);
 INSERT INTO voters VALUES (500, 'Ritika Sharma', 74, 'Female', 24);
+INSERT INTO voters VALUES (501, 'Ashok Sharma', 44, 'Male', 4);
+INSERT INTO voters VALUES (502, 'Vivek Menon', 80, 'Male', 4);
+INSERT INTO voters VALUES (503, 'Vivek Nair', 57, 'Male', 4);
+INSERT INTO voters VALUES (504, 'Santosh Prasad', 65, 'Male', 4);
+INSERT INTO voters VALUES (505, 'Ravi Subramanian', 27, 'Male', 4);
+INSERT INTO voters VALUES (506, 'Gayathri Chandra', 77, 'Female', 4);
+INSERT INTO voters VALUES (507, 'Divya Chandran', 77, 'Female', 4);
+INSERT INTO voters VALUES (508, 'Ritika Rao', 33, 'Female', 4);
+INSERT INTO voters VALUES (509, 'Vasanth', 20, 'male', 4);
+INSERT INTO voters VALUES (510, 'Kamalesh', 21, 'male', 4);
+INSERT INTO voters VALUES (511, 'Sunitha Devi', 48, 'Female', 4);
+INSERT INTO voters VALUES (512, 'Harishma', 20, 'Female', 4);
+INSERT INTO voters VALUES (513, 'Kaleeshwarar', 29, 'male', 4);
+
+
+
+
 -- Inserts: votes (400 total)
 INSERT INTO votes VALUES (1, 2, 2);
 INSERT INTO votes VALUES (2, 4, 3);
@@ -1099,3 +1115,18 @@ INSERT INTO votes VALUES (397, 496, 96);
 INSERT INTO votes VALUES (398, 497, 96);
 INSERT INTO votes VALUES (399, 499, 95);
 INSERT INTO votes VALUES (400, 500, 96);
+INSERT INTO votes VALUES (401,501,13);
+INSERT INTO votes VALUES (402,502,14);
+INSERT INTO votes VALUES (403, 503, 13);
+INSERT INTO votes VALUES (404, 504,16);
+INSERT INTO votes VALUES (405, 505,14);
+INSERT INTO votes VALUES (406, 506 , 15);
+INSERT INTO votes VALUES (407, 507 , 13);
+INSERT INTO votes VALUES (408, 508 , 13);
+INSERT INTO votes VALUES (409, 510, 15);
+INSERT INTO votes VALUES (410, 511 , 13);
+INSERT INTO votes VALUES (411, 509 , 13);
+
+
+
+
