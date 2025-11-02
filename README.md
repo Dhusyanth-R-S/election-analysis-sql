@@ -3,8 +3,6 @@ Relational SQL project simulating elections in South India
 
 # 🗳️ Election Analysis SQL Project
 
-file is **[here](https://github.com/Dhusyanth-R-S/election-analysis-sql/blob/main/Sql_project_election_quries.sql)
-
 ## 📌 Overview
 This project simulates an **election dataset** for South India and performs comprehensive SQL-based analysis to uncover key electoral insights.  
 It contains database setup scripts, sample data, and **22 analytical queries** that demonstrate mastery of SQL concepts — from basic aggregations to advanced Common Table Expressions (CTEs), Views, Window Functions, and Subqueries.
