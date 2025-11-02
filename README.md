@@ -1,10 +1,7 @@
 # election-analysis-sql (mySQL)
 Relational SQL project simulating elections in South India
 
-
-
 # 🗳️ Election Analysis SQL Project
-<img width="203" height="231" alt="voting percentage" src="https://github.com/user-attachments/assets/c99df96a-ac26-4fad-9cde-4f4a278e0f0b" />
 
 ## 📌 Overview
 This project simulates an **election dataset** for South India and performs comprehensive SQL-based analysis to uncover key electoral insights.  
