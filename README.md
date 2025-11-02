@@ -1,8 +1,6 @@
 # election-analysis-sql (mySQL)
 Relational SQL project simulating elections in South India
 
-[here is the link for the file] (https://github.com/Dhusyanth-R-S/election-analysis-sql/blob/main/Sql_project_election_quries.sql)
-
 # 🗳️ Election Analysis SQL Project
 
 ## 📌 Overview
